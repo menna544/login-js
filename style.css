@@ -230,8 +230,7 @@ div.google{
     font-size: 18px;
     display: flex;
     align-items: center;
-   
-    margin-top:3px;
+    margin-top:10px;
     width: 100%;
   }
    .content p{
