@@ -205,6 +205,10 @@ div.google{
   height: 100%;
     width: 100%;
    }
+   .form{
+    padding: 35px;
+    margin-top:290px;
+  }
    .register button{
     margin-right: 30px;
    font-family: 'Avenar';
