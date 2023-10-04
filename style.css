@@ -207,6 +207,14 @@ div.google{
   height: 100%;
     width: 100%;
    }
+     .divider {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+   
+    margin-top:2px;
+    width: 100%;
+  }
    .content p{
     color: #fff;
     width:260px;
