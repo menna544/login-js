@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+button img {
+  width: 25px;
+  height: 14px;
+}
+
+.input-block label {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.form {
+  padding: 35px;
+  margin-top: 270px;
+}
+
+.register button {
+  height: 40px;
+  margin-top: 7px;
+  font-family: 'Avenar';
+  align-items: center;
+  text-align: center;
+  font-size: 17px;
+  color: black;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.content {
+  background: url(./images/bert-b-rhNff6hB41s-unsplash\ 1.png)no-repeat;
+  display: flex;
+  align-items: center;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+.content p {
+  color: #fff;
+  width: 400px;
+  font-size: 20px;
+  margin-left: 30px;
+  padding-bottom: 290px;
+}
+
+#email-error {
+  position: absolute;
+  top: 100%;
+  left: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  color: red;
+}
+
+#submit {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#password-error {
+  position: absolute;
+  top: 100%;
+  left: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  color: red;
+}
+
+.content h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-right: 120px;
+}
+
+.container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.form-content {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.divider {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+
+  margin-top: 15px;
+  width: 100%;
+}
+
+.divider::before,
+.divider::after {
+  flex: 1;
+  content: '';
+  padding: 1px;
+  background-color: darkgray;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin: 13px;
+}
+
+.google {
+  position: absolute;
+}
+
+.register h2 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+  width: 200px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+}
+
+.login-block {
+  position: relative;
+  margin: 30px 0;
+  border-bottom: 2px solid #fff;
+}
+
+.login-block label {
+  color: #666666;
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+
+.register {
+  padding: 20px;
+}
+
+.login-block input {
+  width: 100%;
+  height: 40px;
+  margin-left: 5px;
+  background: transparent;
+  border: 1px solid darkgray;
+  border-radius: 12px;
+  font-size: 1em;
+  color: black;
+}
+
+.login-block ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px;
+}
+
+.Forget {
+  margin: -15px 0 19px;
+  font-size: 0.7em;
+  color: black;
+  display: flex;
+  justify-content: right;
+}
+
+.Forget label a {
+  color: black;
+  font-weight: 600;
+  margin: -15px 0;
+}
+
+.form button {
+  height: 40px;
+  width: 30%;
+  margin-left: 13px;
+  border-radius: 40px;
+  background: #997825;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.register p {
+  font-size: 0.7em;
+  color: black;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.register p a {
+  color: black;
+  font-size: 1em;
+  margin-right: 15px;
+}
+
+.form p {
+  color: black;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 0.7em;
+}
+
+.form p a {
+  color: black;
+  font-size: 1em;
+}
+
+div.google {
+  width: 100%;
+}
+
+@media(max-width:780px) {
+  .container {
+    display: flex;
+    overflow: scroll;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .form {
+    padding: 35px;
+    margin-top: 320px;
+  }
+
+  .register button {
+    margin-right: 30px;
+    font-family: 'Avenar';
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    width: 100%;
+  }
+  #email-error {
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+  }
+  
+  #submit {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #password-error {
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+  }
+  
+
+  h1 {
+    font-size: 0.7em;
+    width: 200px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .divider {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    width: 100%;
+  }
+
+  .content p {
+    color: #fff;
+    width: 260px;
+    font-size: 18px;
+    margin-left: 30px;
+    padding-bottom: 290px;
+  }
+
+  #email-error {
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+  }
+
+  .content h1 {
+    color: #fff;
+    font-size: 30px;
+    width: 200px;
+    margin-top: 40px;
+    margin-right: 130px;
+    margin-left: 20px;
+  }
+
+  .login {
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+  }
+
+  .content {
+    background: url(./images/bert-b-rhNff6hB41s-unsplash\ 1.png)no-repeat;
+    display: flex;
+    align-items: center;
+    background-size: 100% 100%;
+
+  }
+
+  body {
+    min-height: 100vh;
+    height: 90vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+  }
+
+  .input-block label {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .form button {
+    height: 40px;
+    width: 50%;
+    margin-left: 13px;
+    border-radius: 40px;
+    background: #997825;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .8em;
+    font-weight: 500;
+  }
+}
